@@ -27,7 +27,7 @@ export default function SidebarItem({ item }: SidebarItemProps) {
       )}
     >
       {item.Icon}
-      <span className="text-lg">{item.title}</span>
+      <span className="text-base">{item.title}</span>
     </Link>
   )
 }
