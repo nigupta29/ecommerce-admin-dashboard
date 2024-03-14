@@ -1,14 +1,15 @@
+import { HiUsers } from "react-icons/hi2"
 import Logo from "../../logo"
 import SidebarItem from "./sidebar-item"
 
 import {
   MdAttachMoney,
-  MdDashboard,
   MdHelpCenter,
   MdOutlineSettings,
   MdShoppingBag,
-  MdSupervisedUserCircle
+  MdSpaceDashboard
 } from "react-icons/md"
+import { FaMoneyCheck } from "react-icons/fa"
 
 const sidebarItems = [
   {
@@ -17,12 +18,12 @@ const sidebarItems = [
       {
         title: "Dashboard",
         path: "/dashboard",
-        Icon: <MdDashboard />
+        Icon: <MdSpaceDashboard />
       },
       {
         title: "Users",
         path: "/dashboard/users",
-        Icon: <MdSupervisedUserCircle />
+        Icon: <HiUsers />
       },
       {
         title: "Products",
@@ -32,7 +33,7 @@ const sidebarItems = [
       {
         title: "Transactions",
         path: "/dashboard/transactions",
-        Icon: <MdAttachMoney />
+        Icon: <FaMoneyCheck />
       }
     ]
   },

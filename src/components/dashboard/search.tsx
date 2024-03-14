@@ -16,6 +16,7 @@ export default function Search() {
           id="search"
           className="w-full rounded-lg border border-stone-300 bg-stone-50 p-2 ps-10 text-sm text-stone-900 focus-within:outline-none focus:border-green-500 focus:ring-green-500 dark:border-stone-600 dark:bg-stone-700 dark:text-white dark:placeholder-stone-400 dark:focus:border-green-500 dark:focus:ring-green-500"
           placeholder="Search"
+          autoComplete="off"
         />
       </div>
     </div>
