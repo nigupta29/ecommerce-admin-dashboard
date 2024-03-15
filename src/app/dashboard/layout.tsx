@@ -6,10 +6,10 @@ export default function Layout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <div className="relative flex">
-      <div className="absolute z-50 h-screen w-[300px] bg-stone-500 md:relative">
+      <div className="absolute z-50 hidden h-screen w-[300px] bg-stone-500 md:relative md:block">
         <Sidebar />
       </div>
-      <div className="flex-1 space-y-5 p-5">
+      <div className="flex-1 space-y-5 overflow-hidden p-5">
         <Navbar />
         <main>{children}</main>
       </div>
