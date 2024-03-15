@@ -13,6 +13,7 @@ export default function Avatar() {
           alt="user profile"
           fill={true}
           className="object-fill"
+          sizes="300px"
         />
       </div>
     </div>

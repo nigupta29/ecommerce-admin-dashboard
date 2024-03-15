@@ -1,6 +1,7 @@
 "use client"
 
 import Avatar from "@/components/avatar"
+import ThemeBtn from "@/components/theme-btn"
 import { usePathname } from "next/navigation"
 import { useMemo } from "react"
 import Search from "../search"
@@ -23,6 +24,7 @@ export default function Navbar() {
       <h3 className="flex-grow text-lg font-semibold capitalize">{title}</h3>
 
       <Search />
+      <ThemeBtn />
       <Avatar />
     </header>
   )

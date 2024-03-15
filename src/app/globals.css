@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 :root {
-  @apply w-full h-full bg-stone-50 text-stone-950 dark:bg-stone-800 dark:text-stone-50 tracking-tight
+  @apply bg-stone-50 text-stone-950 dark:bg-stone-800 dark:text-stone-50 tracking-tight
 }
