@@ -11,7 +11,7 @@ export default function Layout({
       </div>
       <div className="flex-1 space-y-5 overflow-hidden p-5">
         <Navbar />
-        <main>{children}</main>
+        <main className="mx-auto max-w-7xl">{children}</main>
       </div>
     </div>
   )

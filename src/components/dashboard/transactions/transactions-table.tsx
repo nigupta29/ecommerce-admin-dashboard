@@ -1,8 +1,8 @@
 import Table from "@/components/ui/table"
 import TableBody from "@/components/ui/table/table-body"
 import TableCell from "@/components/ui/table/table-cell"
-import TableHeading from "@/components/ui/table/table-heading"
 import TableHead from "@/components/ui/table/table-head"
+import TableHeading from "@/components/ui/table/table-heading"
 import TableRow from "@/components/ui/table/table-row"
 import Link from "next/link"
 
@@ -25,7 +25,7 @@ export default function TransactionsTable() {
             <TableCell>$2999</TableCell>
             <TableCell>
               <Link
-                href="/"
+                href="/dashboard/transactions"
                 className="font-medium text-green-600 hover:underline dark:text-green-500"
               >
                 Edit

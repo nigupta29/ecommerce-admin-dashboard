@@ -8,7 +8,7 @@ export default function TableHeading({
   return (
     <th
       scope={scope}
-      className="whitespace-nowrap px-6 py-4 font-medium text-stone-900 dark:text-white"
+      className="whitespace-nowrap px-6 py-4 font-semibold text-stone-800 dark:text-stone-100"
     >
       {children}
     </th>
