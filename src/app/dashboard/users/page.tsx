@@ -1,7 +1,9 @@
+import UsersTable from "@/components/dashboard/users/users-table"
+
 export default function Users() {
   return (
     <div>
-      <h3>I am a Users</h3>
+      <UsersTable />
     </div>
   )
 }

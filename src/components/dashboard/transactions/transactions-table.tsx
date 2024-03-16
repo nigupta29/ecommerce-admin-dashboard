@@ -1,9 +1,11 @@
-import Table from "@/components/ui/table"
-import TableBody from "@/components/ui/table/table-body"
-import TableCell from "@/components/ui/table/table-cell"
-import TableHead from "@/components/ui/table/table-head"
-import TableHeading from "@/components/ui/table/table-heading"
-import TableRow from "@/components/ui/table/table-row"
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeading,
+  TableRow
+} from "@/components/ui/table"
 import Link from "next/link"
 
 export default function TransactionsTable() {
