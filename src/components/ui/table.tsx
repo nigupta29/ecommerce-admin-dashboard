@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 function Table({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative overflow-x-auto rounded-lg shadow">
@@ -49,4 +51,28 @@ function TableCell({ children }: { children: React.ReactNode }) {
   return <td className="px-6 py-4">{children}</td>
 }
 
-export { Table, TableHead, TableBody, TableRow, TableHeading, TableCell }
+function TableImageCell({ src, alt }: { src: string; alt: string }) {
+  return (
+    <td className="p-1">
+      <div className="relative mx-auto h-12 w-full max-w-20">
+        <Image
+          src={src}
+          className="object-cover"
+          alt={alt}
+          sizes="200px"
+          fill={true}
+        />
+      </div>
+    </td>
+  )
+}
+
+export {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeading,
+  TableImageCell,
+  TableRow
+}
